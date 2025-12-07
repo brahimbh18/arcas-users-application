@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oleum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              oleum: {
+                50: '#f4f7f2',
+                100: '#e3ebd3',
+                200: '#c5d8a6',
+                300: '#a1c073',
+                400: '#82aa4b',
+                500: '#648e32', // Primary Olive
+                600: '#4d7026',
+                700: '#3d5920',
+                800: '#33481e',
+                900: '#2c3e1c',
+              },
+              earth: {
+                50: '#fbf8f3',
+                100: '#f5efe4',
+                200: '#eaddc6',
+                300: '#dbc4a0',
+                400: '#ca9f72',
+                500: '#bc8452', // Terra Cotta
+                600: '#ae6d43',
+                700: '#915638',
+                800: '#774731',
+                900: '#603a29',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; background-color: #f4f7f2; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.86.2"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
